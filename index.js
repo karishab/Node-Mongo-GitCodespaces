@@ -1,7 +1,7 @@
-import mongoose from "express"
+import mongoose from "mongoose";
 import app from "./app.js"
 
-(async () => {
+( async () => {
     try {
         await mongoose.connect("mongodb://localhost:27017/gitsetup")
         console.log("DB CONNECTED");
@@ -17,4 +17,4 @@ import app from "./app.js"
         throw err;
         
     }
-})() 
+}) () 
