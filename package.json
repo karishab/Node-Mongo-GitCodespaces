@@ -1,0 +1,17 @@
+{
+  "name": "node-mongo-gitcodespaces",
+  "version": "1.0.0",
+  "description": "A test repo configore Node-Mongo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongose": "^0.0.2-security"
+  }
+}
